@@ -1,0 +1,101 @@
+import Link from 'next/link';
+import Navbar from '../components/Navbar';
+import Head from 'next/head'
+// import "../styles/mywork.scss"
+
+function Portfolio() {
+	return (
+		<>
+			<Head>
+			  <title>portfolio</title>
+			</Head>
+
+			<Navbar />
+
+			<section className="section">
+  <h3 className="title_2">My Work</h3>
+  <div class="services-grid">
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h4>Helping-Hands</h4>
+      <p className="description">Helping-Hands is made with pure HTML & CSS. 
+</p>
+      <a href="https://github.com/AltCampus/helping-hands
+" class="cta">GitHub Link <span class="ti-angle-right"></span></a>
+    </div>
+
+    <div class="service service1">
+      <i class="ti-light-bulb"></i>
+      <h4>Book-Shelf</h4>
+      <p className="description">Book-Shelf  is made with Node Js,Express Js,MongoDB.
+</p>
+      <a href="https://github.com/naveenankireddy/Book_Shelf
+" class="cta">GitHub Link <span class="ti-angle-right"></span></a>
+    </div>
+
+    <div class="service service1">
+      <i class="ti-money"></i>
+      <h4>Conduit</h4>
+      <p className="description">Conduit  is made with React Js, Redux and Material-UI.
+
+</p>
+      <a href="https://github.com/naveenankireddy/conduit-react-redux
+
+" class="cta">GitHub Link<span class="ti-angle-right"></span></a>
+    </div>
+	<div class="service service1">
+      <i class="ti-money"></i>
+      <h4>Coin-collector</h4>
+      <p className="description">Coin collector game  is made with pure Vanilla Js.
+</p>
+      <a href="https://github.com/naveenankireddy/coin-collector-game
+" class="cta">GitHub Link <span class="ti-angle-right"></span></a>
+    </div>
+  </div>
+</section>
+<section className="section">
+  <h3 className="title_2">My Blogs</h3>
+  <div class="services-grid">
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h4>React</h4>
+      <p className="description">Things to remember before entering to React.
+</p>
+      <a href="https://medium.com/@naveenkumarreddyankireddy/things-to-recall-in-javascript-before-entering-into-react-js-177b798322ec
+" class="cta">Medium Link <span class="ti-angle-right"></span></a>
+    </div>
+
+    <div class="service service1">
+      <i class="ti-light-bulb"></i>
+      <h4>Node Js</h4>
+      <p className="description">Basic introduction about Node.js.
+</p>
+      <a href="https://medium.com/@naveenkumarreddyankireddy/basic-intro-to-node-js-d9515a588b8a
+" class="cta">Medium Link <span class="ti-angle-right"></span></a>
+    </div>
+
+    <div class="service service1">
+      <i class="ti-money"></i>
+      <h4>JavaScript</h4>
+      <p className="description">Higher order functions in JS.
+
+</p>
+      <a href="https://medium.com/@naveenkumarreddyankireddy/javascript-higher-order-functions-map-foreach-filter-99e8e1513603
+" class="cta">Medium Link<span class="ti-angle-right"></span></a>
+    </div>
+	<div class="service service1">
+      <i class="ti-money"></i>
+      <h4>JavaScript</h4>
+      <p className="description">Detail explanation of Dom Manupulation.
+</p>
+      <a href="https://medium.com/@naveenkumarreddyankireddy/basic-explanation-on-dom-73ed11ea974d
+" class="cta">Medium Link <span class="ti-angle-right"></span></a>
+    </div>
+  </div>
+
+</section>
+		</>
+	);
+}
+
+export default Portfolio;
