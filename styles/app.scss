@@ -307,6 +307,7 @@ a[href] {
   font-weight: 600;
   color: #56ceba;
   font-size: 1.3rem;
+  // margin: 1rem 0 0.6rem;
 }
 
 .services-grid {
@@ -436,6 +437,7 @@ a[href] {
 
 .contact-img {
   text-align: center;
+
   width: 550px;
   margin: 0 auto;
   margin-top: -20px;
@@ -444,6 +446,7 @@ a[href] {
 .touch {
   text-align: center;
   font-size: 48px;
+
   left: 43%;
   margin-top: 70px;
 }
@@ -468,6 +471,7 @@ a[href] {
   }
   .hero .container {
     flex-direction: column-reverse;
+
     margin-left: 150px;
     margin-top: 10rem;
   }
@@ -479,7 +483,7 @@ a[href] {
     zoom: 2;
   }
   .services-grid {
-    zoom: 2;
+    zoom: 2.5;
   }
   .services-grid .service1 {
     padding-top: 0;
@@ -498,7 +502,6 @@ a[href] {
   .description {
     text-align: left;
     font-size: 0.8rem;
-    font-size: 25px;
   }
 
   .contact-img {
@@ -522,12 +525,15 @@ a[href] {
   }
   .touch {
     position: relative;
+
     zoom: 1.4;
     left: 170px;
   }
   .contact-img {
     zoom: 1.4;
+
     position: relative;
+
     left: 50px;
   }
   .responsive-touch {
