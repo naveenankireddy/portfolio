@@ -3,7 +3,6 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
-  // max-width: 1080px;
   height: 100vh;
   zoom: 75%;
 }
@@ -15,15 +14,12 @@ a[href] {
 .container {
   width: 980px;
   height: fit-content;
-  // height: 100vh;
   margin-left: auto;
   margin-right: auto;
 }
 
 .navbar {
   margin-top: 50px;
-  // position: fixed;
-  // width: 100%;
 
   .container {
     display: flex;
@@ -160,58 +156,28 @@ a[href] {
     padding-bottom: 10px;
   }
 }
-// .skills i {
-//   font-size: 100px;
-// }
-// .skills {
-//   display: grid;
-//   grid-template-columns: repeat(2, 1fr);
-//   text-align: center;
-// }
 
 @media screen and (max-width: 540px) {
-  .hero {
-    // grid-template-columns: repeat(2, 1fr);
-    // padding: 2rem 50px;
-  }
   .image-wrapper {
     display: block;
   }
 }
 
 .skills-section {
-  //   padding-top: 20px;
-  //   padding-right: 300px;
   margin-right: 300px;
 }
 
 .skills-header {
   text-align: center;
   color: #fff;
-  //   padding: 1rem;
   position: relative;
 }
-
-// .skills-header:after {
-//   content: "";
-//   position: absolute;
-//   bottom: 0;
-//   left: 50%;
-//   transform: translateX(-50%);
-//   width: 100px;
-//   height: 4px;
-//   background-color: #0074d9;
-//   border-radius: 2px;
-// }
 
 .skills-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  //   align-items: center;
-  //   text-align: center;
-  //   margin-right: 300px;
-  //   right: 300px;
+
   grid-gap: 1rem;
   padding: 1rem 80px;
   padding-right: 300px;
@@ -262,7 +228,6 @@ a[href] {
   width: 100px;
   height: 4px;
   border-radius: 0 2px 2px 0;
-  //   background-color: #0074d9;
 }
 
 .skills-icons {
@@ -342,7 +307,6 @@ a[href] {
   font-weight: 600;
   color: #56ceba;
   font-size: 1.3rem;
-  // margin: 1rem 0 0.6rem;
 }
 
 .services-grid {
@@ -391,26 +355,6 @@ a[href] {
   border: 2px solid #0074d9;
 }
 
-// .service2 i,
-// .service2 h4,
-// .service2 .cta {
-//   color: #425fca;
-// }
-
-// .service2:hover {
-//   border: 2px solid #425fca;
-// }
-
-// .service3 i,
-// .service3 h4,
-// .service3 .cta {
-//   color: #9c42ca;
-// }
-
-// .service3:hover {
-//   border: 2px solid #9c42ca;
-// }
-
 .service .cta span {
   font-size: 0.6rem;
 }
@@ -434,15 +378,9 @@ a[href] {
 }
 
 .middle {
-  // position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  // top: 90%;
-  // left: 50%;
-  // bottom: 0;
-  // margin-top: 100px;
-  // transform: translate(-50%, -50%);
 }
 .btn {
   display: inline-block;
@@ -498,31 +436,17 @@ a[href] {
 
 .contact-img {
   text-align: center;
-  // margin-bottom: 170px;
-  // position: relative;
-  // // bottom: 5%;
-  // // left: 39%;
-  // margin-top: 100px;
-  // line-height: 0;
   width: 550px;
   margin: 0 auto;
   margin-top: -20px;
-}
-.icons {
-  // margin-top: 300px;
 }
 
 .touch {
   text-align: center;
   font-size: 48px;
-  // position: absolute;
   left: 43%;
   margin-top: 70px;
 }
-// .contact-img svg {
-//   margin-bottom: 160px;
-//   padding-bottom: 100px;
-// }
 
 .image-wrapper svg {
   width: 27rem;
@@ -533,6 +457,7 @@ a[href] {
 @media only screen and (max-width: 600px) {
   .nav-item {
     font-size: 5rem;
+    padding-right: 10px;
   }
   .responsivre-cta {
     text-align: center;
@@ -543,9 +468,8 @@ a[href] {
   }
   .hero .container {
     flex-direction: column-reverse;
-    // text-align: center;
-    // position: relative;
     margin-left: 150px;
+    margin-top: 10rem;
   }
   .image-wrapper svg {
     zoom: 2;
@@ -565,32 +489,20 @@ a[href] {
     font-size: 1rem;
   }
 
-  .title {
-    // text-align: center;
+  .title-skills {
+    text-align: center;
   }
   .responsive-title-naveen {
     text-align: left;
   }
   .description {
-    // text-align: center;
     text-align: left;
-    padding: 0 1.5rem;
     font-size: 0.8rem;
-  }
-  .middle {
-    // zoom: 2;
-    // margin-left: 200px;
-    // left: 450px;
+    font-size: 25px;
   }
 
   .contact-img {
     text-align: center;
-    // margin-bottom: 170px;
-    // position: relative;
-    // // bottom: 5%;
-    // // left: 39%;
-    // margin-top: 100px;
-    // line-height: 0;
     width: 550px;
     margin: 0 auto;
     margin-top: 0px !important;
@@ -599,41 +511,28 @@ a[href] {
     position: absolute;
     left: 70px;
     zoom: 2;
-    // top: 100%;
-    // right: -25rem;
-    // transform: none;
   }
   .responsive-title_2 {
-    // text-align: center;
     position: relative;
     left: 480px;
-    // text-align: center;
   }
   .navbar {
     text-align: center;
     justify-content: space-between;
   }
   .touch {
-    // text-align: center;
     position: relative;
-    // margin-left: 50px;
     zoom: 1.4;
     left: 170px;
   }
   .contact-img {
-    // margin-left: 200px;
     zoom: 1.4;
-    // padding-left: 300px;
     position: relative;
-    // left: 200px;
     left: 50px;
   }
   .responsive-touch {
     display: block;
   }
-  // .btn i {
-  //   font-size: 50px;
-  // }
 }
 
 .proceed {

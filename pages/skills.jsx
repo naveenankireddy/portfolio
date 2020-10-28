@@ -15,7 +15,7 @@ function Skills() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h2 className="title">Skills</h2>
+            <h2 className="title title-skills">Skills</h2>
             <div class="skills-section">
     <div class="skills-header">
      </div>
