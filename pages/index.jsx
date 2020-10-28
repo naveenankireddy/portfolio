@@ -14,7 +14,7 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h1 className="title">Hello, I'm Naveen</h1>
+            <h1 className="title responsive-title-naven">Hello, I'm Naveen</h1>
             <p className="description">I am a Full-Stack Developer.</p>
 
             <Link href="/contact"><a className="cta">Contact</a></Link>
