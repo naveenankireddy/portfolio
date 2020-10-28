@@ -11,7 +11,7 @@ function Home() {
 
       <Navbar />
 
-      <section className="hero">
+      <section className="hero responsive-hero">
         <div className="container">
           <div className="text-wrapper">
             <h1 className="title responsive-title-naven">Hello, I'm Naveen</h1>

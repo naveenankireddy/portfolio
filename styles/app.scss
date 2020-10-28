@@ -272,6 +272,9 @@ a[href] {
 }
 
 @media screen and (max-width: 600px) {
+  .responsive-hero {
+    margin-left: 80px;
+  }
   .skills-container {
     grid-template-columns: 2fr 2fr 2fr;
     padding: 2rem 50px;
