@@ -1,19 +1,28 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
-// import "../styles/mywork.scss"
 
 function Portfolio() {
 	return (
 		<>
+
 			<Head>
 			  <title>portfolio</title>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css" />
+
 			</Head>
 
 			<Navbar />
 
+                  <div>
+                        
+                  </div>
+
 			<section className="section">
-  <h3 className="title_2">My Work</h3>
+                        <div className="responsive-title_2">
+
+                              <h3 className="title_2">My Work</h3>
+                        </div>
   <div class="services-grid">
     <div class="service service1">
       <i class="ti-bar-chart"></i>
@@ -45,7 +54,7 @@ function Portfolio() {
     </div>
 	<div class="service service1">
       <i class="ti-money"></i>
-      <h4>Coin-collector</h4>
+      <h4>Coin-Collector</h4>
       <p className="description">Coin collector game  is made with pure Vanilla Js.
 </p>
       <a href="https://github.com/naveenankireddy/coin-collector-game
@@ -53,13 +62,16 @@ function Portfolio() {
     </div>
   </div>
 </section>
+
 <section className="section">
+<div className="responsive-title_2">
   <h3 className="title_2">My Blogs</h3>
+</div>
   <div class="services-grid">
     <div class="service service1">
       <i class="ti-bar-chart"></i>
       <h4>React</h4>
-      <p className="description">Things to remember before entering to React.
+      <p className="description">Things to recall before touching React.
 </p>
       <a href="https://medium.com/@naveenkumarreddyankireddy/things-to-recall-in-javascript-before-entering-into-react-js-177b798322ec
 " class="cta">Medium Link <span class="ti-angle-right"></span></a>
@@ -68,7 +80,7 @@ function Portfolio() {
     <div class="service service1">
       <i class="ti-light-bulb"></i>
       <h4>Node Js</h4>
-      <p className="description">Basic introduction about Node.js.
+      <p className="description">I wrote this on Basic introduction about Node.js.
 </p>
       <a href="https://medium.com/@naveenkumarreddyankireddy/basic-intro-to-node-js-d9515a588b8a
 " class="cta">Medium Link <span class="ti-angle-right"></span></a>
@@ -76,8 +88,8 @@ function Portfolio() {
 
     <div class="service service1">
       <i class="ti-money"></i>
-      <h4>JavaScript</h4>
-      <p className="description">Higher order functions in JS.
+      <h4>JS</h4>
+      <p className="description">I wrote this on Higher order functions in JS like map,filter etc...
 
 </p>
       <a href="https://medium.com/@naveenkumarreddyankireddy/javascript-higher-order-functions-map-foreach-filter-99e8e1513603
@@ -85,8 +97,8 @@ function Portfolio() {
     </div>
 	<div class="service service1">
       <i class="ti-money"></i>
-      <h4>JavaScript</h4>
-      <p className="description">Detail explanation of Dom Manupulation.
+      <h4>JS</h4>
+      <p className="description">I wrote this on Detail explanation of Dom Manupulation.
 </p>
       <a href="https://medium.com/@naveenkumarreddyankireddy/basic-explanation-on-dom-73ed11ea974d
 " class="cta">Medium Link <span class="ti-angle-right"></span></a>

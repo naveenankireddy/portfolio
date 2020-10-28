@@ -82,7 +82,7 @@ function Skills() {
     
      </div>
 
-            <Link href="/portfolio"><a className="cta">Blog</a></Link>
+            <Link href="/portfolio"><a className="cta responsivre-cta">Blog</a></Link>
           </div>
 
           <div className="image-wrapper">

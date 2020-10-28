@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   // max-width: 1080px;
   height: 100vh;
+  zoom: 80%;
 }
 
 a[href] {
@@ -31,6 +32,7 @@ a[href] {
 
   .logo {
     font-size: 28px;
+    padding-top: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
@@ -304,7 +306,7 @@ a[href] {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .skills-container {
     grid-template-columns: 2fr 2fr 2fr;
     padding: 2rem 50px;
@@ -340,7 +342,7 @@ a[href] {
   font-weight: 600;
   color: #56ceba;
   font-size: 1.3rem;
-  margin: 1rem 0 0.6rem;
+  // margin: 1rem 0 0.6rem;
 }
 
 .services-grid {
@@ -389,25 +391,25 @@ a[href] {
   border: 2px solid #0074d9;
 }
 
-.service2 i,
-.service2 h4,
-.service2 .cta {
-  color: #425fca;
-}
+// .service2 i,
+// .service2 h4,
+// .service2 .cta {
+//   color: #425fca;
+// }
 
-.service2:hover {
-  border: 2px solid #425fca;
-}
+// .service2:hover {
+//   border: 2px solid #425fca;
+// }
 
-.service3 i,
-.service3 h4,
-.service3 .cta {
-  color: #9c42ca;
-}
+// .service3 i,
+// .service3 h4,
+// .service3 .cta {
+//   color: #9c42ca;
+// }
 
-.service3:hover {
-  border: 2px solid #9c42ca;
-}
+// .service3:hover {
+//   border: 2px solid #9c42ca;
+// }
 
 .service .cta span {
   font-size: 0.6rem;
@@ -432,11 +434,15 @@ a[href] {
 }
 
 .middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  // position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // top: 90%;
+  // left: 50%;
+  // bottom: 0;
   // margin-top: 100px;
-  transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
 }
 .btn {
   display: inline-block;
@@ -493,20 +499,23 @@ a[href] {
 .contact-img {
   text-align: center;
   // margin-bottom: 170px;
-  position: absolute;
-  // bottom: 5%;
-  left: 39%;
-  margin-top: 100px;
-  line-height: 0;
+  // position: relative;
+  // // bottom: 5%;
+  // // left: 39%;
+  // margin-top: 100px;
+  // line-height: 0;
+  width: 550px;
+  margin: 0 auto;
+  margin-top: -20px;
 }
 .icons {
-  margin-top: 300px;
+  // margin-top: 300px;
 }
 
 .touch {
   text-align: center;
   font-size: 48px;
-  position: absolute;
+  // position: absolute;
   left: 43%;
   margin-top: 70px;
 }
@@ -523,13 +532,20 @@ a[href] {
 //Responsive
 @media only screen and (max-width: 600px) {
   .nav-item {
-    font-size: 3.5rem;
+    font-size: 5rem;
+  }
+  .responsivre-cta {
+    text-align: center;
+    margin-left: 75px;
   }
   .logo {
     display: none;
   }
-  .container {
+  .hero .container {
     flex-direction: column-reverse;
+    // text-align: center;
+    // position: relative;
+    margin-left: 150px;
   }
   .image-wrapper svg {
     zoom: 2;
@@ -548,21 +564,73 @@ a[href] {
     margin: 0.5rem;
     font-size: 1rem;
   }
+
+  .title {
+    text-align: center;
+  }
+  .description {
+    // text-align: center;
+    text-align: left;
+    padding: 0 1.5rem;
+    font-size: 0.8rem;
+  }
   .middle {
-    zoom: 2;
+    // zoom: 2;
+    // margin-left: 200px;
+    // left: 450px;
+  }
+
+  .contact-img {
+    text-align: center;
+    // margin-bottom: 170px;
+    // position: relative;
+    // // bottom: 5%;
+    // // left: 39%;
+    // margin-top: 100px;
+    // line-height: 0;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 0px !important;
+  }
+  .middle {
+    position: absolute;
+    left: 200px;
+    zoom: 1.5;
+    // top: 100%;
+    // right: -25rem;
+    // transform: none;
+  }
+  .responsive-title_2 {
+    // text-align: center;
+    position: relative;
+    left: 480px;
+    // text-align: center;
+  }
+  .navbar {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .touch {
+    // text-align: center;
+    position: relative;
+    // margin-left: 50px;
+    zoom: 1.4;
+    left: 170px;
   }
   .contact-img {
-    position: absolute;
-    right: -15rem;
-    top: 30rem;
+    // margin-left: 200px;
+    zoom: 1.4;
+    // padding-left: 300px;
+    position: relative;
+    // left: 200px;
+    left: 50px;
   }
-  .middle {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    right: -25rem;
-    transform: none;
+  .responsive-touch {
+    display: block;
   }
+  // .btn i {
+  //   font-size: 50px;
+  // }
 }
 
 .proceed {
